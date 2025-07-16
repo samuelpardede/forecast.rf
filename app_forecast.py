@@ -6,7 +6,7 @@ from PIL import Image
 
 # --- 1. KONFIGURASI HALAMAN ---
 st.set_page_config(
-    page_title="Forecasting Kualanamu",
+    page_title="Forecasting Kualanamu🌧️",
     page_icon="🔮",
     layout="wide"
 )
@@ -24,7 +24,7 @@ def load_assets():
         return None, None, None, None
 
     try:
-        logo = Image.open('logo_stmkg.png') # Ganti jika nama file logo Anda berbeda
+        logo = Image.open('Stmkg.png') # Ganti jika nama file logo Anda berbeda
     except FileNotFoundError:
         logo = None
             
